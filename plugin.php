@@ -128,5 +128,4 @@ function bs_travel_guide_on_save($post_id)
 
 add_action('init', 'bs_travel_guide_register_post_type');
 add_action('save_post', 'bs_travel_guide_on_save');
-bs_travel_guide_create_custom_params();
 
